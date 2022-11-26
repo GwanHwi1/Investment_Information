@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.css" />
     <style>
         body{
-            color:silver;
+            color:black;
         }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -100,10 +100,10 @@
         if( color ) $("body").css("color", color);
         setUpbitData();
     });
-    function setColor(color){
-        localStorage.setItem("test_upbit_color", color);
-        $("body").css("color", color);
-    }
+    // function setColor(color){
+    //     localStorage.setItem("test_upbit_color", color);
+    //     $("body").css("color", color);
+    // }
 
     function movePage(str){
         $.ajax({

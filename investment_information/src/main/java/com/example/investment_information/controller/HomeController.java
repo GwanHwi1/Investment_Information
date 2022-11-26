@@ -1,4 +1,4 @@
-package com.example.investment_information.investment_information.controller;
+package com.example.investment_information.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
