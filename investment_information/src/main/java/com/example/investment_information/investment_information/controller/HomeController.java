@@ -11,8 +11,8 @@ public class HomeController {
         return "main";
     }
 
-    @GetMapping("/zz")
+    @GetMapping("/candle")
     public String mainzage() throws Exception{
-        return "ex";
+        return "candleChart";
     }
 }
